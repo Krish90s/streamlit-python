@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+# (you might want to consider adding some of these to your
+# list of tracked files if you actively distribute your package)
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller / Nuitka
+# Usually these files are written by a Python script from a template
+# before PyInstaller or Nuitka builds the executable, so you shouldn't
+# need to include them in your git repository
+*.manifest
+*.spec
+
+# IDE specific files
+# (adjust if using a different IDE)
+
+# Visual Studio Code
+.vscode/*
+!*.code-workspace
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio 
+# Not recommended to track generated project files from IDEs
+.sln
+*.suo
+*.vbproj
+*.csproj
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Spyder IDE
+.spyderproject
+.spyderenv
+
+# Other IDEs
+# List other IDE specific files here
+
+# Temporary files created by Jupyter Notebook
+*.ipynb_checkpoints
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Django stuff
+*.log
+local_settings.py
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+
+# End of https://www.gitignore.io/api/python,pipenv
